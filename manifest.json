@@ -1,0 +1,26 @@
+{
+
+  "manifest_version": 2,
+  "name": "Debug Content Scripts Demo",
+  "version": "1.0",
+
+  "description": "Adds a browser action icon to the toolbar. Click the button to open a tab and inject a minimal javascript code with a debugger command.",
+  "homepage_url": "https://github.com/mastacheata/debug-content-scripts-demo-extension",
+  "icons": {
+    "48": "Cc-zero.svg"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "Cc-zero.svg",
+    "default_title": "Debug Content Scripts Demo"
+  },
+
+  "background": {
+    "scripts": ["background-script.js"]
+  }
+  
+}
